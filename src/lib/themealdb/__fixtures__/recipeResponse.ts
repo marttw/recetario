@@ -1,6 +1,6 @@
-import type { TheMealDbResponse } from "../themealdb/types";
+import type { TheMealDbResponse } from "../types";
 
-export const recipResponse: TheMealDbResponse = {
+export const recipeResponse: TheMealDbResponse = {
   meals: [
     {
       idMeal: "52771",
