@@ -5,7 +5,7 @@ export interface Recipe {
   category: string;
   country: string | null;
   instructions: string;
-  image: string;
+  image: string | null;
   tags: string[];
   youtubeLink: string | null;
   ingredients: Ingredient[];
